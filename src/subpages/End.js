@@ -10,26 +10,26 @@ export default function End() {
       <div className="container">
         <div className="flexbox">
           <Fade left>
-            <h1 className="text-center my-5">Stay in touch</h1>
+            <h1 className="text-center my-5">Kontaktujte nás</h1>
             <div className="row my-4">
               <div className="col-lg-6 mb-4">
                 <input
                   type="name"
                   className="inputBox"
-                  placeholder="Your Name"
+                  placeholder="Vaše jméno"
                 />
               </div>
               <div className="col-lg-6 mb-4">
                 <input
                   type="email"
                   className="inputBox"
-                  placeholder="Your Email"
+                  placeholder="Váš email"
                 />
               </div>
             </div>
-            <textarea rows = "2" className="inputBox mb-4" placeholder="Your Message" />
+            <textarea rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" />
             <button className="btn btn-light mb-4 py-3">
-              Submit
+              Odeslat
             </button>
           </Fade>
         </div>

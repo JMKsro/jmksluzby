@@ -5,7 +5,7 @@ function ServiceItem({ src, title }) {
   return (
     <Fade bottom>
       <div className="col-lg-3 my-4 col-sm-12">
-        <img src={src} width="128px" />
+        <img src={src} width="128px" style={{color: ""}}/>
         <h3 className="mt-5">{title}</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus

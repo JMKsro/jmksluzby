@@ -6,7 +6,7 @@ function Footer() {
     <div>
       <footer className="py-2" style={{ backgroundColor: "#5E35B1" }}>
         <div className="container">
-          <p className="float-right">Krisp | © Copyright 2019</p>
+  <p className="float-right">JMK služby s. r. o. | © Copyright 2020</p>
           <p>
             Design Inspired from{" "}
             <a href="https://graphicburger.com/cuda-single-page-portfolio-template/">
