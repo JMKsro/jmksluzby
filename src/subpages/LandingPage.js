@@ -16,7 +16,7 @@ function LandingPage() {
 
   const pageStyle = {
     backgroundImage:
-      "src/images/homepage.jpg",
+      "../images/gatsby-icon.jpg",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

@@ -8,8 +8,7 @@ export default function End() {
       style={{ backgroundColor: "#7E57C2", color: "white" }}
     >
       <div className="container">
-        <div className="flexbox">
-          <Fade left>
+        <form name="contact" method="POST" data-netlify="true" className="flexbox">
             <h1 className="text-center my-5">Kontaktujte nás</h1>
             <div className="row my-4">
               <div className="col-lg-6 mb-4">
@@ -17,6 +16,7 @@ export default function End() {
                   type="name"
                   className="inputBox"
                   placeholder="Vaše jméno"
+                  required
                 />
               </div>
               <div className="col-lg-6 mb-4">
@@ -24,15 +24,15 @@ export default function End() {
                   type="email"
                   className="inputBox"
                   placeholder="Váš email"
+                  required
                 />
               </div>
             </div>
-            <textarea rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" />
-            <button className="btn btn-light mb-4 py-3">
+            <textarea rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" required/>
+            <button type="submit" className="btn btn-light mb-4 py-3">
               Odeslat
             </button>
-          </Fade>
-        </div>
+        </form>
       </div>
     </div>
   )
