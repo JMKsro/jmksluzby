@@ -9,6 +9,7 @@ export default function End() {
     >
       <div className="container">
         <form name="contact" method="POST" data-netlify="true" className="flexbox">
+        <input type="hidden" name="form-name" value="contact" />
             <h1 className="text-center my-5">Kontaktujte nás</h1>
             <div className="row my-4">
               <div className="col-lg-6 mb-4">
