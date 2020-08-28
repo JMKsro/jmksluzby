@@ -14,19 +14,19 @@ export default function End() {
             <div className="row my-4">
               <div className="col-lg-6 mb-4">
                 <input
-                  type="name"
-                  name="name"
+                  type="email"
+                  name="email"
                   className="inputBox"
-                  placeholder="Vaše jméno"
+                  placeholder="Váš email"
                   required
                 />
               </div>
               <div className="col-lg-6 mb-4">
                 <input
-                  type="email"
-                  name="email"
+                  type="text"
+                  name="subject"
                   className="inputBox"
-                  placeholder="Váš email"
+                  placeholder="Předmět zprávy"
                   required
                 />
               </div>
