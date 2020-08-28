@@ -15,6 +15,7 @@ export default function End() {
               <div className="col-lg-6 mb-4">
                 <input
                   type="name"
+                  name="name"
                   className="inputBox"
                   placeholder="Vaše jméno"
                   required
@@ -23,13 +24,14 @@ export default function End() {
               <div className="col-lg-6 mb-4">
                 <input
                   type="email"
+                  name="email"
                   className="inputBox"
                   placeholder="Váš email"
                   required
                 />
               </div>
             </div>
-            <textarea rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" required/>
+            <textarea name="body" rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" required/>
             <button type="submit" className="btn btn-light mb-4 py-3">
               Odeslat
             </button>
