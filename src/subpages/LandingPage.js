@@ -16,7 +16,7 @@ function LandingPage() {
 
   const pageStyle = {
     backgroundImage:
-      "../images/gatsby-icon.jpg",
+      "images/gatsby-icon.jpg",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -30,7 +30,7 @@ function LandingPage() {
   }
 
   return (
-    <section id = "home" style={pageStyle} className = "container-fluid">
+    <section id = "home" className = "container-fluid">
       <div className="container">
         <Navbar />
         <div className="centerItems">

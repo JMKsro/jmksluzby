@@ -1,12 +1,54 @@
 - title: Prodej výpočetní techniky
-  src: https://image.flaticon.com/icons/svg/541/541950.svg
-  text: 
+  src: https://image.flaticon.com/icons/svg/572/572697.svg
+  text: [
+    "počítače, notebooky, tablety",
+    "externí disky, flash disky, paměťové karty",
+    "monitory, tiskárny, spotřební materiál",
+    "Wifi routery, NAS servery, komponenty",
+    "kompletní sortiment výpočetní techniky"
+  ]
 - title: Prodej elektroniky
-  src: https://image.flaticon.com/icons/svg/254/254638.svg
-  text: 
+  src: https://image.flaticon.com/icons/svg/186/186239.svg
+  text: [
+    "mobilní telefony, chytré hodinky, sluchátka",
+    "televize, fotoaparáty, videokamery, soundbary",
+    "lednice, pračky, sušičky, robotické vysavače",
+    "kuchyňské spotřebiče",
+    "a spousta dalšího zařízení"
+  ]
 - title: Účetnictví
-  src: https://image.flaticon.com/icons/svg/2927/2927547.svg  
-  text:
+  src: https://image.flaticon.com/icons/svg/3135/3135679.svg
+  text: [
+    "vedení účetnictví",
+    "účetní poradenství",
+    "vedení daňové evidence",
+    "mzdové účetnictví",
+    "administrativa"
+  ]
 - title: Prodej piva
-  src: https://image.flaticon.com/icons/svg/2916/2916562.svg
-  text: 
+  src: https://image.flaticon.com/icons/svg/2884/2884828.svg
+  text: [
+    "sudové pivo Rychtář Hlinsko",
+    "sudové pivo Hubertus Kácov",
+    "lahvové a plechovkové pivo Rychtář",
+    "pivo lahvové, plechovkové a v PET Hubertus Kácov",
+    "nealkoholické pivo"
+  ]
+- title: IT služby
+  src: https://image.flaticon.com/icons/svg/1055/1055683.svg
+  text: [
+    "servis výpočetní techniky",
+    "návrhy IT řešení nejen pro firmy",
+    "výstavba a správa datových sítí",
+    "kamerové systémy, datová úložiště",
+    "služby podle Vašich potřeb a přání"
+  ]
+- title: Prodej elektroinstalačního materiálu
+  src: https://image.flaticon.com/icons/svg/3175/3175557.svg
+  text: [
+    "instalační kabely, jističe, chrániče",
+    "zásuvky, vypínače, tlačítka, datové zásuvky",
+    "prodlužovací kabely, rozvaděče",
+    "světla, LED reflektory, žárovky, LED pásky",
+    "ostatní elektroinstalační materiál"
+  ]

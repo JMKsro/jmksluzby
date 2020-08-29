@@ -10,18 +10,19 @@ function Services() {
           node {
             title
             src
+            text
           }
         }
       }
     }
   `)
   return (
-    <div id = "services" className="container-fluid">
+    <div id = "services" className="container-fluid" style={{ marginTop: "3em", backgroundColor: "#f8f9f9"}}>
       <div className="container">
         <div className="flexbox">
           <div className="row">
             {allServicesYaml.edges.map(({ node }) => {
-              return <ServiceItem title={node.title} src={node.src} />
+              return <ServiceItem title={node.title} src={node.src} text={node.text} />
             })}
           </div>
         </div>

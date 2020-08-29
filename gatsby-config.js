@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-krisp`,
-        short_name: `krisp`,
+        name: `jmk-sluzby`,
+        short_name: `jmkSluzby`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

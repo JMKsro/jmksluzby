@@ -1,15 +1,15 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-function ServiceItem({ src, title }) {
+function ServiceItem({ src, title, text }) {
   return (
     <Fade bottom>
-      <div className="col-lg-3 my-4 col-sm-12">
-        <img src={src} width="128px" style={{color: ""}}/>
-        <h3 className="mt-5">{title}</h3>
+      <div className="col-lg-5 col-sm-12 service-item">
+        <img src={src} width="64px" class="service-icon"/>
+        <h4 className="mt-5" style={{fontFamily: "Raleway, Helvetica, Arial, sans-serif", fontWeight: "600"}}>{title}</h4>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-          harum eum odit tempore quos dolor nesciunt rerum est totam alias.
+     {text.map(item=><li class="service-text">{item}</li>)}
+          
         </p>
       </div>
     </Fade>

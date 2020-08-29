@@ -4,8 +4,9 @@ import Fade from "react-reveal/Fade"
 export default function End() {
   return (
     <div
+      id="contact"
       className="container-fluid"
-      style={{ backgroundColor: "#7E57C2", color: "white" }}
+      style={{ backgroundColor: "#f8f9f9" }}
     >
       <div className="container">
         <form name="contact" method="POST" data-netlify="true" className="flexbox">
@@ -32,7 +33,7 @@ export default function End() {
               </div>
             </div>
             <textarea name="body" rows = "2" className="inputBox mb-4" placeholder="Vaše zpráva" required/>
-            <button type="submit" className="btn btn-light mb-4 py-3">
+            <button type="submit" className="btn btn-primary mb-4 py-3">
               Odeslat
             </button>
         </form>
