@@ -17,7 +17,7 @@ function Services() {
     }
   `)
   return (
-    <div id = "services" className="container-fluid" style={{ marginTop: "3em" }}>
+    <div id = "services" className="container-fluid" style={{ marginTop: "5.5em" }}>
       <div className="container">
         <div className="flexbox">
           <div className="row">

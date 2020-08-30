@@ -24,12 +24,6 @@ section {
   box-sizing: unset;
 }
 
-@media only screen and (max-width: 760px) {
-  .flexbox {
-  margin-top: 90px;
-  }
-}
-
 .centerItems{
   height: 80vh;
   display: flex;
