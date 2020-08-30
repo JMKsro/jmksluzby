@@ -1,5 +1,5 @@
 - title: Prodej výpočetní techniky
-  src: https://image.flaticon.com/icons/svg/572/572697.svg
+  icon: laptop
   text: [
     "počítače, notebooky, tablety",
     "externí disky, flash disky, paměťové karty",
@@ -8,7 +8,7 @@
     "kompletní sortiment výpočetní techniky"
   ]
 - title: Prodej elektroniky
-  src: https://image.flaticon.com/icons/svg/186/186239.svg
+  icon: mobile-alt
   text: [
     "mobilní telefony, chytré hodinky, sluchátka",
     "televize, fotoaparáty, videokamery, soundbary",
@@ -17,7 +17,7 @@
     "a spousta dalšího zařízení"
   ]
 - title: Účetnictví
-  src: https://image.flaticon.com/icons/svg/3135/3135679.svg
+  icon: hand-holding-usd
   text: [
     "vedení účetnictví",
     "účetní poradenství",
@@ -26,7 +26,7 @@
     "administrativa"
   ]
 - title: Prodej piva
-  src: https://image.flaticon.com/icons/svg/2884/2884828.svg
+  icon: beer
   text: [
     "sudové pivo Rychtář Hlinsko",
     "sudové pivo Hubertus Kácov",
@@ -35,7 +35,7 @@
     "nealkoholické pivo"
   ]
 - title: IT služby
-  src: https://image.flaticon.com/icons/svg/1055/1055683.svg
+  icon: laptop-house
   text: [
     "servis výpočetní techniky",
     "návrhy IT řešení nejen pro firmy",
@@ -44,7 +44,7 @@
     "služby podle Vašich potřeb a přání"
   ]
 - title: Prodej elektroinstalačního materiálu
-  src: https://image.flaticon.com/icons/svg/3175/3175557.svg
+  icon: lightbulb
   text: [
     "instalační kabely, jističe, chrániče",
     "zásuvky, vypínače, tlačítka, datové zásuvky",

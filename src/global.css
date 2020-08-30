@@ -8,6 +8,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif !important;
+  background-color: #f8f9f9;
 }
 
 section {
@@ -20,6 +21,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-sizing: unset;
 }
 
 @media only screen and (max-width: 760px) {
@@ -71,9 +73,28 @@ footer a {
 .service-text {
   color: #777777;
   font-size: 0.875rem;
-  line-height: 1,7
+  line-height: 1,7;
+  margin-left: 15px;
 }
 
 .row {
   display: flex;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.address-header {
+  margin-left: 10px;
+}
+
+.address-contact {
+  font-family: "Open Sans, Helvetica, Arial, sans-serif";
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #777777;
+  font-weight: bold;
 }
