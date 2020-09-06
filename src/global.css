@@ -62,7 +62,7 @@ footer a {
 .service-icon {
   display: block;
   margin: auto;
-  color: grey;
+  color: #03c4eb;
 }
 
 .service-text {
@@ -92,4 +92,5 @@ footer a {
   margin-top: 5px;
   color: #777777;
   font-weight: bold;
+  font-style: italic;
 }

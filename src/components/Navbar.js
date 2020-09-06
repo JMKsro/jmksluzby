@@ -5,12 +5,12 @@ function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <AnchorLink class="navbar-brand" href="#services">JMK služby s. r. o. VOJTĚCHOV</AnchorLink>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav  mr-auto mt-2 mt-lg-0">
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav  mr-auto">
           <li class="nav-item">
             <AnchorLink class="nav-link" href="#services">
               Nabízíme
