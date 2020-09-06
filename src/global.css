@@ -94,3 +94,16 @@ footer a {
   font-weight: bold;
   font-style: italic;
 }
+
+@media only screen and (max-width: 600px) {
+  .brand-size {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .brand-size {
+    font-size: 0.7em;
+  }
+}
+
