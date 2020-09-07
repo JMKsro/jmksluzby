@@ -3,11 +3,11 @@
 html {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Calibri", sans-serif !important;
 }
 
 body {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Calibri", sans-serif !important;
   background-color: #f8f9f9;
 }
 
@@ -43,12 +43,20 @@ textarea:focus{
   animation: none !important
 }
 
-footer{
+footer {
   color: #B9A4DE
 }
 
 footer a {
   color: white
+}
+
+.navbar a {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #03c4eb !important;
 }
 
 .center-align {
@@ -90,12 +98,10 @@ footer a {
 }
 
 .address-contact {
-  font-family: "Open Sans, Helvetica, Arial, sans-serif";
   margin-left: 20px;
   margin-bottom: 15px;
   margin-top: 5px;
   color: #777777;
-  font-weight: bold;
   font-style: italic;
 }
 
