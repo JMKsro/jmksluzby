@@ -20,7 +20,7 @@ function Services() {
     <div id = "services" className="container-fluid" style={{ marginTop: "5.5em" }}>
       <div className="container">
         <div className="flexbox">
-          <div className="row">
+          <div className="row center-align">
             {allServicesYaml.edges.map(({ node }) => {
               return <ServiceItem title={node.title} icon={node.icon} text={node.text} />
             })}

@@ -10,7 +10,7 @@ function Navbar() {
       </button>
 
       <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav  mr-auto">
+        <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
             <AnchorLink class="nav-link" href="#services">
               Nabízíme

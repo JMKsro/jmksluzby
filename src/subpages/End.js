@@ -10,7 +10,7 @@ export default function End() {
       style={{ backgroundColor: "#f8f9f9" }}
     >
       <div className="container contact">
-        <div class="my-4"><h1 className="text-center my-2">Kontaktujte nás</h1></div>
+        <div class="my-4"><h3 className="text-center my-2">Kontaktujte nás</h3></div>
         <div class="row">
           <div class="col-lg-6">
             <form name="contact" method="POST" data-netlify="true" className="flexbox">
@@ -44,7 +44,7 @@ export default function End() {
             </form>
           </div>
           <div class="col-lg-6 my-4">
-              <div class="row address-header"><h3>JMK služby s. r. o.</h3></div>
+              <div class="row address-header"><h5>JMK služby s. r. o.</h5></div>
               <div class="row address-contact">
                 <FontAwesomeIcon className="mx-2" icon="map-marker-alt" /> Vojtěchov 150, 539 01 Hlinsko
               </div>
