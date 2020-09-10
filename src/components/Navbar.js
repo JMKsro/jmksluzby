@@ -12,9 +12,9 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <AnchorLink class="nav-link" href="#services">
+            <AnchorLink class="nav-link" href="services">
               NABÍDKA
-              </AnchorLink>
+            </AnchorLink>
           </li>
           <li class="nav-item">
             <AnchorLink class="nav-link" href="#contact">

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Krisp`,
-    description: `A Clean, Minimal and Responsive Site`,
-    author: `@mohanmonu777`,
+    title: `JMK Služby s. r. o.`,
+    description: `JMK Služby s. r. o. `,
+    author: `@jmksluzby`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/favicon.jpg`,
       },
     },
     `gatsby-transformer-yaml`,

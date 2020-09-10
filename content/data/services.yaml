@@ -16,24 +16,6 @@
     "kuchyňské spotřebiče",
     "a spousta dalšího zařízení"
   ]
-- title: Účetnictví
-  icon: hand-holding-usd
-  text: [
-    "vedení účetnictví",
-    "účetní poradenství",
-    "vedení daňové evidence",
-    "mzdové účetnictví",
-    "administrativa"
-  ]
-- title: Prodej piva
-  icon: beer
-  text: [
-    "sudové pivo Rychtář Hlinsko",
-    "sudové pivo Hubertus Kácov",
-    "lahvové a plechovkové pivo Rychtář",
-    "pivo lahvové, plechovkové a v PET Hubertus Kácov",
-    "nealkoholické pivo"
-  ]
 - title: IT služby
   icon: laptop-house
   text: [
@@ -43,6 +25,15 @@
     "kamerové systémy, datová úložiště",
     "služby podle Vašich potřeb a přání"
   ]
+- title: Účetnictví
+  icon: hand-holding-usd
+  text: [
+    "vedení účetnictví",
+    "účetní poradenství",
+    "vedení daňové evidence",
+    "mzdové účetnictví",
+    "administrativa"
+  ]
 - title: Prodej elektroinstalačního materiálu
   icon: lightbulb
   text: [
@@ -51,4 +42,13 @@
     "prodlužovací kabely, rozvaděče",
     "světla, LED reflektory, žárovky, LED pásky",
     "ostatní elektroinstalační materiál"
+  ]
+- title: Prodej piva
+  icon: beer
+  text: [
+    "sudové pivo Rychtář Hlinsko",
+    "sudové pivo Hubertus Kácov",
+    "lahvové a plechovkové pivo Rychtář",
+    "pivo lahvové, plechovkové a v PET Hubertus Kácov",
+    "nealkoholické pivo"
   ]

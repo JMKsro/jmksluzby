@@ -2,7 +2,6 @@ import React from "react"
 import "../global.css"
 import Navbar from "../components/Navbar";
 import Services from "../subpages/Services";
-import Team from "../subpages/Team";
 import End from "../subpages/End";
 import Footer from "../components/Footer";
 import { library } from '@fortawesome/fontawesome-svg-core'
