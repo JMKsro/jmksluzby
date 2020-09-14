@@ -17,7 +17,7 @@ function Services() {
     }
   `)
   return (
-    <div id="services" className="container-fluid d-block" style={{ marginTop: "5.5em" }}>
+    <div id="services" className="container-fluid d-block" style={{ paddingTop: "5.5em" }}>
       <div className="container">
         <div className="flexbox">
           <div className="row center-align">
