@@ -22,7 +22,7 @@ collections:
     files:
       - file: 'content/data/pageData.yaml'
         label: 'Hlavička'
-        name: 'page-data'
+        name: 'header'
         fields:
           - {
               label: Template,
