@@ -31,18 +31,13 @@ collections:
               default: LandingPage,
             }
           - { label: Titulek, name: welcomeText, widget: string }
+          - { label: Text, name: landingText, widget: string }
       - file: 'content/data/services.yaml'
         label: 'Služby'
         name: 'services'
         fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: Services,
-            }
           - label: 'Služby'
-            name: 'contacts'
+            name: 'services'
             widget: 'list'
             required: false
             fields:

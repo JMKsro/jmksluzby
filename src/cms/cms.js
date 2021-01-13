@@ -1,4 +1,6 @@
 import CMS from 'netlify-cms-app'
-import LandingPage from '../subpages/LandingPage'
+import LandingPageTemplate from '../subpages/LandingPage'
 
-CMS.registerPreviewTemplate('header', LandingPage)
+CMS.registerPreviewTemplate('header', ({ entry }) => (
+    <LandingPageTemplate {...entry.toJS().data} />
+  ))
