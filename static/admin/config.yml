@@ -41,6 +41,10 @@ collections:
             widget: 'list'
             required: false
             fields:
-              - { label: 'Nadpis', name: 'name', widget: 'string' }
+              - { label: 'Nadpis', name: 'title', widget: 'string' }
               - { label: Ikona, name: icon, widget: text }
-              - { label: Text, name: text, widget: markdown }
+              - label: Text, 
+                name: text, 
+                widget: list
+                fields: 
+                - { label: 'Nabízené služby', name: 'service', widget: 'string' }
