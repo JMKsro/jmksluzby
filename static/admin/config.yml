@@ -5,7 +5,7 @@ backend:
 media_folder: "content/images"
 
 collections:
-  - name: "content" # Used in routes, e.g., /admin/collections/content
+  - name: "content/data" # Used in routes, e.g., /admin/collections/content
     label: "Sekce" # Used in the UI
     delete: false # Prevent users from deleting documents in this collection
     editor:
