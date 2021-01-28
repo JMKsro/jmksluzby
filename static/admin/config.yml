@@ -20,24 +20,12 @@ collections:
     editor:
       preview: true
     files:
-      - file: 'content/data/pageData.yaml'
-        label: 'Hlavička'
-        name: 'header'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: LandingPage,
-            }
-          - { label: Titulek, name: welcomeText, widget: string }
-          - { label: Text, name: landingText, widget: string }
-      - file: 'content/data/services.yaml'
+      - file: 'content/data/services.md'
         label: 'Služby'
         name: 'services'
         fields:
           - label: 'Služby'
-            name: 'services'
+            name: 'services-page'
             widget: 'list'
             required: false
             fields:
