@@ -5,13 +5,13 @@ backend:
 media_folder: "content/images"
 
 collections:
-  - name: "content/data" # Used in routes, e.g., /admin/collections/content
+  - name: "content" # Used in routes, e.g., /admin/collections/content
     label: "Sekce" # Used in the UI
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
     files:
-      - file: 'content/data/services.md'
+      - file: 'content/services.md'
         label: 'Služby'
         name: 'services'
         fields:
