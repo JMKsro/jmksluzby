@@ -2,16 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-media_library:
-  name: uploadcare
-  config:
-    publicKey: a73a170cb5cdef662983
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+media_folder: "content/images"
 
 collections:
   - name: "section" # Used in routes, e.g., /admin/collections/blog
