@@ -5,18 +5,26 @@ backend:
 media_folder: "content/images"
 
 collections:
-  - name: "content" # Used in routes, e.g., /admin/collections/content
+  - name: "services" # Used in routes, e.g., /admin/collections/content
     label: "Sekce" # Used in the UI
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
     files:
-      - file: 'content/services.md'
+      - file: 'content/services/services.md'
         label: 'Služby'
-        name: 'services'
+        name: 'services-page'
         fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: ServicesPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'services-page' }
+          - { label: Titulek, name: title, widget: string }
           - label: 'Služby'
-            name: 'services-page'
+            name: 'services'
             widget: 'list'
             required: false
             fields:
