@@ -23,17 +23,18 @@ export default () => (
     }
   }
 `}
-  render={data => (<ServicesTemplate allServicesMarkdown={data.allMarkdownRemark} />)}/>
+  render={data => (<ServicesTemplate services={data.allMarkdownRemark.edges[0].node.frontmatter.services} />)}/>
 )
 
 export const ServicesTemplate = ({
-  allServicesMarkdown
+  services
 }) => (
     <div id="services" className="container-fluid d-block" style={{ paddingTop: "5.5em" }}>
       <div className="container">
         <div className="flexbox">
           <div className="row center-align">
-          {allServicesMarkdown.edges[0].node.frontmatter.services.map((node,index) => {
+            {console.log(services)}
+          {services.map((node,index) => {
               return <ServiceItem key={index} title={node.title} icon={node.icon} text={node.text} />
             })}
           </div>
