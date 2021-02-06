@@ -3,5 +3,5 @@ import CMS from 'netlify-cms-app'
 import ServicePageTemplate from '../subpages/ServicesPage'
 
 CMS.registerPreviewTemplate('services-page', ({ entry }) => (
-    <ServicePageTemplate services={JSON.stringify(entry)} />
+    <ServicePageTemplate services={() => console.log(entry)}/>
 ))
