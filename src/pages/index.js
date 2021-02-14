@@ -9,15 +9,35 @@ import { faMapMarkerAlt, faPhone, faEnvelope, faIdCard, faPoll, faLaptop, faMobi
 
 library.add(faMapMarkerAlt, faPhone, faEnvelope, faIdCard, faPoll, faLaptop, faMobileAlt, faHandHoldingUsd, faBeer, faLaptopHouse, faLightbulb )
 
-function Index() {
+export default function Index({data}) {
+  const { allMarkdownRemark } = data
   return (
     <div>
       <Navbar/>
-      <ServicesPage/>
+      <ServicesPage data={allMarkdownRemark}/>
       <End/>
       <Footer/>
     </div>
   )
 }
 
-export default Index
+export const servicesPageQuery = graphql`
+query ServicesPage {
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          slug
+          template
+          title
+          services {
+            icon
+            text
+            title
+          }
+        }
+      }
+    }
+  }
+}
+`

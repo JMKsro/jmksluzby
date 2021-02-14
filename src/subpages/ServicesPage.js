@@ -1,30 +1,5 @@
 import React from "react"
 import ServiceItem from "../components/ServiceItem"
-import { graphql, StaticQuery } from "gatsby"
-
-export default () => (
-  <StaticQuery query={ graphql`
-  query ServicesPage {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            slug
-            template
-            title
-            services {
-              icon
-              text
-              title
-            }
-          }
-        }
-      }
-    }
-  }
-`}
-  render={data => (<ServicesTemplate services={data.allMarkdownRemark.edges[0].node.frontmatter.services} />)}/>
-)
 
 export const ServicesTemplate = ({
   services
@@ -33,7 +8,6 @@ export const ServicesTemplate = ({
       <div className="container">
         <div className="flexbox">
           <div className="row center-align">
-            {console.log(services)}
           {services.map((node,index) => {
               return <ServiceItem key={index} title={node.title} icon={node.icon} text={node.text} />
             })}
@@ -42,3 +16,11 @@ export const ServicesTemplate = ({
       </div>
     </div>
   )
+
+  const ServicesPage = ( {data} ) => {
+    return (
+      <ServicesTemplate services={data.edges[0].node.frontmatter.services} /> 
+    )
+  }
+
+  export default ServicesPage
