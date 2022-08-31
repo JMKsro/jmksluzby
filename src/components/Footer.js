@@ -6,7 +6,7 @@ function Footer() {
     <div>
       <footer className="py-2" style={{ backgroundColor: "#222222" }}>
         <div className="container">
-  <p style={{ textAlign: "center" }}>JMK služby s. r. o. | © Copyright 2020</p>          
+  <p style={{ textAlign: "center" }}>JMK služby s. r. o. | © Copyright {new Date().getFullYear()}</p>          
         </div>
       </footer>
     </div>
